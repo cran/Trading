@@ -5,7 +5,12 @@
 #' @export
 #' @author Tasos Grivas <tasos@@openriskcalculator.com>
 #'
-
+#' @examples
+#'
+#' ## calling ParseTrades() without an argument loads a test file containing all
+#' ## the different trade types supported
+#' example_trades = ParseTrades()
+#'
 ParseTrades = function(csvfilename)
 {
   if(missing(csvfilename))
