@@ -1,8 +1,8 @@
 Package: Trading
 Type: Package
-Title: CCR, Entropy-Based Correlation Estimates & Dynamic Beta
-Version: 2.2
-Date: 2021-07-04
+Title: CCR, Advanced Correlation & Beta Estimates, Betting Strategies
+Version: 2.5
+Date: 2022-08-26
 Author: Tasos Grivas
 Maintainer: Tasos Grivas <info@openriskcalculator.com>
 Description: Contains performance analysis metrics of track records including entropy-based
@@ -12,10 +12,11 @@ Description: Contains performance analysis metrics of track records including en
             On a separate stream, trades from the five major assets classes and also
             functionality to use pricing curves, rating tables, CSAs and add-on tables. The
             implementation follows an object oriented logic whereby each trade inherits from
-            more abstract classes while also the curves/tables are objects. There is a lot
-            of functionality focusing on the counterparty credit risk calculations however
-            the package can be used for trading applications in general.
-Imports: methods, reticulate, PerformanceAnalytics
+            more abstract classes while also the curves/tables are objects. Furthermore, odds calculators
+            and P&L back-testing functionality has been implemented for the most widely used betting/trading
+            strategies including martingale, DAlembert, Labouchere and Fibonacci. Some basic functionality about climate risk 
+            was also added in the latest version.
+Imports: methods, reticulate, PerformanceAnalytics, data.table
 URL: https://openriskcalculator.com/
 License: GPL-3
 Collate: 'AngularDistance.R' 'Future.R' 'Swap.R' 'Vol.R' 'Option.R'
@@ -25,12 +26,18 @@ Collate: 'AngularDistance.R' 'Future.R' 'Swap.R' 'Vol.R' 'Option.R'
         'HashTable.R' 'InformationAdjustedBeta.R'
         'InformationAdjustedCorr.R' 'NormXASampEn.R' 'Other.R'
         'ParseTrades.R' 'SampleEntropy.R' 'SelectDerivatives.R'
-        'VariationOfInformation.R' 'onLoad.R'
+        'VariationOfInformation.R' 'capped_fibonacci_seq.R' 'cf.R'
+        'ci.R' 'martingale_strategy_calculator.R' 'onLoad.R'
+        'roulette_pl_calculator_Labouchere.R'
+        'roulette_pl_calculator_dalembert.R'
+        'roulette_pl_calculator_fibonacci.R'
+        'roulette_pl_calculator_martingale.R'
+        'roulette_pl_calculator_specific_number.R' 'tce.R' 'waci.R'
 RoxygenNote: 7.1.1
 NeedsCompilation: no
-Packaged: 2021-07-04 16:28:33 UTC; rforge
 Repository: CRAN
 Repository/R-Forge/Project: ccr
-Repository/R-Forge/Revision: 46
-Repository/R-Forge/DateTimeStamp: 2021-07-04 16:09:35
-Date/Publication: 2021-07-04 17:00:02 UTC
+Repository/R-Forge/Revision: 64
+Repository/R-Forge/DateTimeStamp: 2022-08-26 15:30:53
+Date/Publication: 2022-08-26 19:44:38 UTC
+Packaged: 2022-08-26 15:52:07 UTC; rforge
