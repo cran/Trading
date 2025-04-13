@@ -2,15 +2,15 @@
 % Please edit documentation in R/UKThunderBallResults.R
 \name{UKThunderBallResults}
 \alias{UKThunderBallResults}
-\title{Returns all the EuroJackpot results until the end of 2023}
+\title{Returns all the UK ThunderBall results until the beginning of 2025}
 \usage{
 UKThunderBallResults()
 }
 \value{
-A dataframe with all the EuroJackpot results
+A dataframe with all the UK ThunderBall results
 }
 \description{
-Returns all the EuroJackpot results since the first draw on Feb 2004 until the end of 2023
+Returns all the UK ThunderBall results until the beginning of 2025
 }
 \examples{
 

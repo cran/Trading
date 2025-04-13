@@ -1,4 +1,4 @@
-ae27cae009458d59f0d049e8e67671d8 *DESCRIPTION
+8a6ad980af8fce8ebbe17c7b3013be4e *DESCRIPTION
 99165e87340b6fb63b8f0af9f54b4311 *NAMESPACE
 1c0a8b5c861a280243fda4a9343a405d *R/AngularDistance.R
 1ac4ea5899aa32a55c05ad1fe07f5249 *R/Bond.R
@@ -24,7 +24,7 @@ d7666be4cb11d25e0b8d27036f7432cb *R/FX.R
 842830a294eae9f1b3586fe828fcbfe0 *R/GetTradeDetails.R
 3182be03c2ee0bad6f9223340a891773 *R/HashTable.R
 7ffe8b5112bfb0d4ca5af0f584d4f966 *R/IRD.R
-b4145a1e8628b73f1dcf82cb4876ca0f *R/InformationAdjustedBeta.R
+503c93b2acfbbce0c592c7315a1541c9 *R/InformationAdjustedBeta.R
 8cb6a6b81103f0f1815f5cff5a1f54fc *R/InformationAdjustedCorr.R
 be4f16c76f0fdb4a068a101843503c2e *R/NormXASampEn.R
 c3dca4a56687e2d5c497bd706cc00f35 *R/Option.R
@@ -115,7 +115,7 @@ cfd7dcd8a5f9929df93887f47742524e *man/IRDFuture-class.Rd
 f93b1cebbac3432243843ef7795cbc91 *man/IRDSwap-class.Rd
 f039a179a6bd4c7d210bee7d26894274 *man/IRDSwapVol-class.Rd
 97f46e01db5cc1b831b8287b547a3cc2 *man/IRDSwaption-class.Rd
-f606eb5276421a348eb72d9f460d64a4 *man/InformationAdjustedBeta.Rd
+a4628f1864832752b0ed212d0fa77f59 *man/InformationAdjustedBeta.Rd
 f8a716d241b2ee2c8b556b0842ca2478 *man/InformationAdjustedCorr.Rd
 2883ccb368c918c8b9fe2bbdcfc9e685 *man/NormXASampEn.Rd
 d457dcdeb03e01b21ee36c8465b2cf6d *man/OtherExposure-class.Rd
@@ -130,7 +130,7 @@ fda7e00f9ee2729cb95fcd7dbd3993e2 *man/SampleEntropy.Rd
 27a8ac4bd21a8394ff338e59a5f08372 *man/UKLotteryBacktesting.Rd
 c854a2d7b293df43493e31e01bf258bb *man/UKLotteryExample.Rd
 322908a2bcdb4aef12513c08ab807fd1 *man/UKLotteryResults.Rd
-f94b4e942ac8c1541c08d6524ca44a4a *man/UKThunderBallResults.Rd
+d75a952bb810c4f289151aba7e1348f8 *man/UKThunderBallResults.Rd
 1d2dfc0a37a182aacf9bbdeeceef72d5 *man/UKThunderballBacktesting.Rd
 2eb1483fbf093be6203bfd558c1a48cd *man/UKThunderballExample.Rd
 7e3aa47108754fb33e3a8007afce4cef *man/VariationOfInformation.Rd
